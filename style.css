@@ -1,5 +1,11 @@
 body {
   margin: 0;
+  min-height: 100vh;
+  background: linear-gradient(
+    180deg,
+    rgba(227, 255, 248, 0.712) 82.08%,
+    rgba(227, 255, 248, 0.38) 100%
+  );
 }
 
 .page {
@@ -74,8 +80,8 @@ button {
   gap: 10px;
 }
 
-button:hover{
-    background-color: rgb(65, 156, 124);
+button:hover {
+  background-color: rgb(65, 156, 124);
 }
 
 footer {
@@ -93,5 +99,7 @@ footer a {
 }
 
 #balls {
-
+  position: fixed;
+  bottom: 0;
+  right: 0;
 }
