@@ -7,10 +7,11 @@ body{
     margin: 65px auto 0;
 }
 
-header{
+nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 58px;
 }
 
 ul {
@@ -19,3 +20,9 @@ ul {
     gap: 48px;
     margin: 0;
 }
+
+main {
+    display: flex;
+    justify-content: space-between;
+}
+
